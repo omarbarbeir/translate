@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./one.css">
+    <link rel="stylesheet" href="./output.css">
+    <title>Translator</title>
+</head>
+<body class="dark bg-green-300 dark:bg-slate-800">
+    
+    <div id="main" class="overflow-hidden dark:bg-slate-600 bg-yellow-100 w-3/4  md:w-4/5  rounded-lg p-3">
+        <div id="container">
+            <div id="inputs" class="flex gap-2">
+                <textarea id="from" placeholder="Enter Text" class="w-60 h-64 p-2 md:w-2/4 md:h-72 resize-none rounded-lg italic font-bold text-3xl text-blue-950 dark:text-black border border-r-2 outline-none"></textarea>
+                <textarea id="to" placeholder="Translate To" class="w-60 h-64 p-2 md:w-2/4 md:h-72 resize-none rounded-lg italic font-bold text-3xl text-blue-950 dark:text-black border border-r-2 outline-none"></textarea>
+            </div>
+
+            <ul id="controls" class="flex justify-between items-center p-2">
+                <li id="from" class="ic flex justify-between items-center">
+                    <div>
+                        <i id="frome" class=" cursor-pointer fa-solid fa-volume-high text-black dark:text-slate-400 text-2xl "></i>
+                        <i id="frome" class=" cursor-pointer fa-solid fa-copy text-black dark:text-slate-400 text-2xl ml-2"></i>
+                    </div>
+                    <select class="ml-4 border-none bg-transparent outline-none italic font-bold dark:text-slate-400 text-black text-2xl">
+                        <!-- <option value="en-US">English</option>
+                        <option value="hi-IN">Hindi</option>
+                        <option value="ne-NP">Nepali</option> -->
+                    </select>
+                </li>
+
+                <li id="exchange"><i class=" cursor-pointer dark:text-slate-400 text-white fa-solid fa-arrow-right-arrow-left"></i></li>
+
+                <li id="to" class="ic flex justify-between items-center">
+                    <select class="mr-4 border-none bg-transparent outline-none italic font-bold dark:text-slate-400 text-black text-2xl">     
+                        <!-- <option value="hi-IN">Hindi</option>
+                        <option value="ne-NP">Nepali</option>
+                        <option value="en-US">English</option> -->
+                    </select>
+                    <div id="icon">
+                        <i id="too" class=" cursor-pointer fa-solid fa-volume-high text-black dark:text-slate-400 text-2xl mr-2"></i>
+                        <i id="too" class=" cursor-pointer fa-solid fa-copy text-black dark:text-slate-400 text-2xl"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <button id="btn" class="bg-violet-300 mt-5 h-24 p-2 w-full rounded-lg italic font-bold dark:text-slate-800 text-black text-5xl">Translate Text</button>
+    </div>
+    
+
+
+
+
+
+<script src="./countries.js"></script>      
+<script src="./one.js"></script>    
+<script src="https://kit.fontawesome.com/41a38439e1.js" crossorigin="anonymous"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>

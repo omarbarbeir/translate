@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Barriecito&family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Barriecito&family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Barriecito&family=Fredericka+the+Great&display=swap');
+
+#main{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height: 600px;
+}
+#btn{
+    font-family: 'Acme', sans-serif;
+}
+select{
+    font-family: 'Acme', sans-serif;
+
+}
+textarea{
+    font-family: 'Acme', sans-serif;
+}
+textarea::-webkit-scrollbar{
+    width:7px;
+    border-radius: 10px;
+}
+textarea::-webkit-scrollbar-track{
+    background: silver;
+    border-radius: 10px;
+}
+textarea::-webkit-scrollbar-thumb{
+    background: navajowhite;
+    border-radius: 10px;
+}
